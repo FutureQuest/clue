@@ -51,8 +51,11 @@ var (
 
 // Export color codes
 var (
+	ColorBlue          = "\033[34m"
+	ColorBlueBold      = "\033[1;34m"
+	ColorCyan          = "\033[36m"
 	ColorSeverityDebug = "\033[37m"
-	ColorSeverityInfo  = "\033[34m"
+	ColorSeverityInfo  = ColorBlueBold
 	ColorSeverityWarn  = "\033[33m"
 	ColorSeverityError = "\033[1;31m"
 )
